@@ -6,7 +6,7 @@
   "homepage": "https://jinju2828.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    
+
     "build": ""
   },
   "author": "Jinju Chu",
