@@ -244,11 +244,15 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(4, 1fr); }
+  main a#back-top {
+    display: none; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  main a#back-top {
+    display: none; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -257,6 +261,8 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+    main a#back-top {
+      color: #eece1a; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
